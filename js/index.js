@@ -10,10 +10,10 @@ function App() {
             <h1>Todo</h1>
             <img src={imgUrl} className="image" />
             <ul className="todo-list">
-                <TodoItem />
-                <TodoItem />
-                <TodoItem />
-                <TodoItem />
+                <TodoItem item="Köp mjölk" done="false" />
+                <TodoItem item="Köp tidning" done="true" />
+                <TodoItem item="Köp kaffe" done="false" />
+                <TodoItem item="Läs tidning" done="false" />
             </ul>
         </article>
     )
